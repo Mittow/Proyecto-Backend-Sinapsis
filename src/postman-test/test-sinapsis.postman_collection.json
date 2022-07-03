@@ -1,0 +1,108 @@
+{
+	"info": {
+		"_postman_id": "fcfc08aa-c8e1-446a-9062-2e6816b4b663",
+		"name": "test-sinapsis",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19774039"
+	},
+	"item": [
+		{
+			"name": "test-productos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/productos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"productos"
+					],
+					"query": [
+						{
+							"key": "categoria",
+							"value": "impresoras",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test-productos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id_categoria\": 2,\r\n    \"nombre\": \"TV Samsung 32 full HD\",\r\n    \"precio\": 299.99,\r\n    \"cantidad\": 200,\r\n    \"descripcion\": \"Telvisor de baja gama de la marca Samsung\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/productos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"productos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test-categorias",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/categorias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"categorias"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "test-categorias",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/categorias",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"categorias"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
