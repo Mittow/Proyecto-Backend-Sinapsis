@@ -124,10 +124,10 @@ WHERE c.nombre_categoria = 'Celulares'
 ORDER BY p.id_producto ASC;
 
 ------------------------------------------------------------------------------------
-# En en archivo " .env ", poner las credenciales de la Base de datos creada.
-## EJEMPLO:
+## En en archivo " .env ", poner las credenciales de la Base de datos creada y ponerlo dentro del archivo de la aplicación.
+- ## EJEMPLO:
 
-## HOST=localhost
-## DATABASE=BD
-## USER=root
-## PASSWORD=password
+	### HOST=localhost
+	### DATABASE=BD
+	### USER=root
+	### PASSWORD=password
