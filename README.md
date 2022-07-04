@@ -5,7 +5,7 @@
 2. DESCRIPCION: Solución de la prueba técnica de backend para la empresa SINAPSIS; realizado con NodeJS y MySQL.
 
 3. PASOS PARA LEVANTAR EL PROYECTO:
-    - Ejecutar el comando " npm i ", (Al ejecutar este comando, se instalarán todas las dependecias y librerías que necesite el proyecto para levantarse).
+    - Ejecutar el comando " npm i " en la terminal CMD o del VSC, (Al ejecutar este comando, se instalarán todas las dependecias y librerías que necesite el proyecto para levantarse).
     - Ejecutar el comando " npm start ", (Al ejecutar este comando, se levantará el servidor y pondrá en funcionamiento).
     - Opcionalmente se puede instalar la libreria nodemon con el comando " npm i nodemon -D ", y luego ejecutar el comando " npm run dev " el cual levantara el servidor en modo desarrollador.
 
