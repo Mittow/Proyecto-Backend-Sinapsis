@@ -123,8 +123,11 @@ JOIN Categorias c on p.id_categoria = c.id_categoria
 WHERE c.nombre_categoria = 'Celulares'
 ORDER BY p.id_producto ASC;
 
+------------------------------------------------------------------------------------
+# En en archivo " .env ", poner las credenciales de la Base de datos creada.
+## EJEMPLO:
 
-### /* PRIVILEGIOS */
-
-ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
-flush privileges;
+## HOST=localhost
+## DATABASE=BD
+## USER=root
+## PASSWORD=password
